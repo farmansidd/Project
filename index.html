@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        * {
+            margin: 0%;
+            padding: 0%;
+        }
+        body {
+            background-image: url("BG\ image\ Symbol\ 3\ copy.png");
+            background-repeat: no-repeat;
+            background-position: center;
+            height: 100vh;
+            width: 100vw;
+            background-color: #f0f0f0; }
+        .whole-pump{
+            display: none;
+        }
+        .pump {
+            height: 200px;
+            width: 200px;
+            position: absolute;
+        }
+        
+        .handle img {
+    position: absolute;
+    top: 200%;
+    left: 184vh;
+    transform: translate(-50%, 0);
+    transition: transform 0.3s ease;
+    cursor: pointer;
+    
+}
+
+        .main-pump img {
+            position: absolute;
+            top: 260%;
+        }
+        .air-chamber img {
+            position: absolute;
+            top: 230%;
+            left: 155vh;
+        }
+        .handle img,
+        .main-pump img,
+        .air-chamber img {
+            position: absolute;
+
+            right: -620%;
+            height: 200px;
+            object-fit: contain;
+        }
+        .baloon img {
+            position: absolute;
+            height: 200px;
+            object-fit: contain;
+            left:148.5vh;
+            top: 165%;
+            display: hidden;
+        }
+        @keyframes floatMotion {
+    0% {
+        transform: translateY(0px) translateX(0px);
+    }
+    100% {
+        transform: translateY(-20px) translateX(10px);
+    }
+}
+
+        
+    </style>
+</head>
+<body>
+    <div class="whole-pump"><img src="whole pumpSymbol 28.png" alt=""></div>
+    <div class="pump">
+    <div class="handle"><img src="handle Symbol 320001.png" alt=""></div>
+    <!-- <div class="baloon">
+        <img class="1" src="Symbol 100002.png" alt="">
+        <img class="2"src="Baloon symbol 100001" alt="">
+        <img class="3"src="symbol 100002" alt="">
+        <img class="4"src="symbol 100003" alt="">
+        <img class="5"src="symbol 100004" alt="">
+        <img class="6"src="symbol 100005" alt="">
+        <img class="7"src="symbol 100006" alt="">
+        <img class="8"src="symbol 100007" alt="">
+        <img class="9"src="symbol 100008" alt="">
+        <img class="10"src="symbol 100009" alt=""> 
+    </div> -->
+    <div class="balloon"> <!-- ✅ CORRECT: balloon with two 'l's -->
+        <img class="1" src="Symbol 100002.png" alt="">
+        <img class="4"src="symbol 100003" alt="">
+        <img class="5"src="symbol 100004" alt="">
+        <img class="6"src="symbol 100005" alt="">
+        <img class="7"src="symbol 100006" alt="">
+        <img class="8"src="symbol 100007" alt="">
+        <img class="9"src="symbol 100008" alt="">
+    </div>
+    
+    <div class="main-pump"><img src="main pupm Symbol 320003.png" alt=""></div>
+    <div class="air-chamber"><img src="air chember Symbol 320002.png" alt=""></div>
+</div>
+<script>
+
+    
+
+</script>
+<script  src="game.js"></script>
+</body>
+</html>
